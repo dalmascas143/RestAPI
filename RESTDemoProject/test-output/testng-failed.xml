@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="end2end.end2end">
+      <class name="cbre.Login_Success">
         <methods>
-          <include name="testing" invocation-numbers="0 1 2"/>
+          <include name="testing"/>
         </methods>
-      </class> <!-- end2end.end2end -->
+      </class> <!-- cbre.Login_Success -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

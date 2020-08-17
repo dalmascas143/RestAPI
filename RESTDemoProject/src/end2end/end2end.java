@@ -17,7 +17,7 @@ public class end2end {
 	
 	@Test(dataProvider="Booksdata")
 	public void testing(String setnewAddress) {
-		RestAssured.baseURI = "https://rahulshettyacademy.com/";
+		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		//Adds data
 		String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type","application/json")
 				.body(payload.AddPlaceDynamic())
